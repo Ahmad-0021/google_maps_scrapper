@@ -11,7 +11,7 @@ def main():
     parser.add_argument("--append", action="store_true", help="Append results to the output file instead of overwriting")
     args = parser.parse_args()
 
-    search_for = args.search or "turkish stores in toronto Canada"
+    search_for = args.search or "Gyms in Lahore"
     total = args.total or 1
     output_path = args.output
     append = args.append
