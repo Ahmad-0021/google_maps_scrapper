@@ -4,16 +4,6 @@ This Python script utilizes the Playwright library to perform web scraping and d
 
 To do a custom web scraping project you can find me on Upwork
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Example](#example)
-- [Notes](#notes)
-- [Video Example](#video-example)
-
 ## Prerequisites
 
 - Python 3.8 or 3.9 (Python 3.10+ may not be compatible with some dependencies)
