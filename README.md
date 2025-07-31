@@ -83,4 +83,4 @@ The script will launch a browser, perform the search, and start scraping informa
 https://www.linkedin.com/posts/zohaibbashir_python-data-webscraping-activity-7093920891411062784-flEQ
 
 ## License
-MIT
+MIT# google_maps_scrapper
