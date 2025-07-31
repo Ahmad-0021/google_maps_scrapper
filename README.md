@@ -59,7 +59,7 @@ python main.py -s "Gyms in Lahore" -t 20
 Append new results to an existing CSV file:
 
 ```bash
-python main.py -s "Gyms in Lahore" -t 20 -o toronto_turkish_restaurants.csv --append
+python main.py -s "Gyms in Lahore" -t 20 -o result.csv --append
 ```
 
 The script will launch a browser, perform the search, and start scraping information. Progress will be displayed in the terminal, and results will be saved to the specified CSV file. If `--append` is used, new results will be added to the end of the file without removing previous data.
