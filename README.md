@@ -1,13 +1,11 @@
 # Google-Maps-Scrapper
+
 This Python script utilizes the Playwright library to perform web scraping and data extraction from Google Maps. It is particularly designed for obtaining information about businesses, including their name, address, website, phone number, reviews, and more.
 
 To do a custom web scraping project you can find me on Upwork
 
-<a href="https://www.upwork.com/freelancers/~01dbb4d47d167c2d43" target="_blank">
-<img src=https://img.shields.io/badge/Upwork-6FDA44?&style=for-the-badge&logo=medium&logoColor=white alt=medium style="margin-bottom: 5px;" />
-</a>
-
 ## Table of Contents
+
 - [Prerequisites](#prerequisites)
 - [Key Features](#key-features)
 - [Installation](#installation)
@@ -17,10 +15,12 @@ To do a custom web scraping project you can find me on Upwork
 - [Video Example](#video-example)
 
 ## Prerequisites
+
 - Python 3.8 or 3.9 (Python 3.10+ may not be compatible with some dependencies)
 - Google Chrome or Chromium browser installed (for Playwright)
 
 ## Key Features
+
 - Data Scraping: The script scrapes data from Google Maps listings, extracting valuable information about businesses, such as their name, address, website, and contact details.
 
 - Review Analysis: It extracts review counts and average ratings, providing insights into businesses' online reputation.
@@ -67,6 +67,7 @@ python main.py -s "Turkish Restaurants in Toronto Canada" -t 20
 ## Example
 
 Append new results to an existing CSV file:
+
 ```bash
 python main.py -s "Turkish Restaurants in Toronto Canada" -t 20 -o toronto_turkish_restaurants.csv --append
 ```
@@ -74,13 +75,11 @@ python main.py -s "Turkish Restaurants in Toronto Canada" -t 20 -o toronto_turki
 The script will launch a browser, perform the search, and start scraping information. Progress will be displayed in the terminal, and results will be saved to the specified CSV file. If `--append` is used, new results will be added to the end of the file without removing previous data.
 
 ## Notes
+
 - The script opens a visible browser window (not headless) for scraping.
 - Google Maps DOM may change, which can break the script. If you encounter issues, update the XPaths in `main.py`.
 - Avoid running too many scrapes in a short period to prevent being blocked by Google.
 
-## Video Example
-
-https://www.linkedin.com/posts/zohaibbashir_python-data-webscraping-activity-7093920891411062784-flEQ
-
 ## License
+
 MIT# google_maps_scrapper
