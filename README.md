@@ -29,7 +29,7 @@ To do a custom web scraping project you can find me on Upwork
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/zohaibbashir/Google-Maps-Scrapper.git
+   git clone https://github.com/Ahmad-0021/google_maps_scrapper.git
    cd google-maps-scraper
    ```
 2. Install Python dependencies:
